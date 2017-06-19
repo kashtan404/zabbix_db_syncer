@@ -23,8 +23,27 @@ Directory /opt/zabbixdb_dumps/ must exist.
 Usage
 ------
 
-./zabbix_conf_updater.py -h "host" -u "user" -p "pass" -d "dbname" -rh "remotehost" -ru "remoteuser" -rp "remotepass" -rd "remotedbname"
+zabbix_conf_updater.py [-h] -host HOSTNAME -u USER -p PASSWORD
+                              [-d DATABASE] -rh REMOTEHOSTNAME -ru REMOTEUSER
+                              -rp REMOTEPASSWORD [-rd REMOTEDATABASE]
 
+optional arguments:
+  -h, --help            show this help message and exit
+  -host HOSTNAME, --hostname HOSTNAME
+                        hostname to push config (local)
+  -u USER, --user USER  user (local)
+  -p PASSWORD, --password PASSWORD
+                        password (local)
+  -d DATABASE, --database DATABASE
+                        db name (local)
+  -rh REMOTEHOSTNAME, --remotehostname REMOTEHOSTNAME
+                        hostname to pull config (remote)
+  -ru REMOTEUSER, --remoteuser REMOTEUSER
+                        user (remote)
+  -rp REMOTEPASSWORD, --remotepassword REMOTEPASSWORD
+                        password (remote)
+  -rd REMOTEDATABASE, --remotedatabase REMOTEDATABASE
+                        db name (remote)
 
 Script work-line
 ----------------
