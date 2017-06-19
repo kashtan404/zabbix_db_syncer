@@ -6,7 +6,7 @@ import datetime
 import mysql.connector
 import argparse
 
-parser = argparse.ArgumentParser()
+parser = argparse.ArgumentParser(description='arguments')
 parser.add_argument('-h', '--hostname', help='hostname to push config (local)', required=True)
 parser.add_argument('-u', '--user', help='user (local)', required=True)
 parser.add_argument('-p','--password', help='password (local)', required=True)

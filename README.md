@@ -9,6 +9,8 @@ Requirements
 
 Zabbix 3.0 or higher
 
+Python 3 or higher
+
 python libs:
   - os
   - datetime
@@ -16,6 +18,13 @@ python libs:
   - argparse
 
 Directory /opt/zabbixdb_dumps/ must exist.
+
+
+Usage
+------
+
+./zabbix_conf_updater.py -h "host" -u "user" -p "pass" -d "dbname" -rh "remotehost" -ru "remoteuser" -rp "remotepass" -rd "remotedbname"
+
 
 Script work-line
 ----------------
