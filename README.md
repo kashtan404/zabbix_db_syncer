@@ -8,6 +8,7 @@ Requirements
 ------------
 
 Zabbix 3.0 or higher
+
 python libs:
   - os
   - datetime
