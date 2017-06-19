@@ -28,21 +28,21 @@ zabbix_conf_updater.py [-h] -host HOSTNAME -u USER -p PASSWORD
                               -rp REMOTEPASSWORD [-rd REMOTEDATABASE]
 
 optional arguments:
-  -h, --help            show this help message and exit
-  -host HOSTNAME, --hostname HOSTNAME
+ - -h, --help            show this help message and exit
+ - -host HOSTNAME, --hostname HOSTNAME
                         hostname to push config (local)
-  -u USER, --user USER  user (local)
-  -p PASSWORD, --password PASSWORD
+ - -u USER, --user USER  user (local)
+ - -p PASSWORD, --password PASSWORD
                         password (local)
-  -d DATABASE, --database DATABASE
+ - -d DATABASE, --database DATABASE
                         db name (local)
-  -rh REMOTEHOSTNAME, --remotehostname REMOTEHOSTNAME
+ - -rh REMOTEHOSTNAME, --remotehostname REMOTEHOSTNAME
                         hostname to pull config (remote)
-  -ru REMOTEUSER, --remoteuser REMOTEUSER
+ - -ru REMOTEUSER, --remoteuser REMOTEUSER
                         user (remote)
-  -rp REMOTEPASSWORD, --remotepassword REMOTEPASSWORD
+ - -rp REMOTEPASSWORD, --remotepassword REMOTEPASSWORD
                         password (remote)
-  -rd REMOTEDATABASE, --remotedatabase REMOTEDATABASE
+ - -rd REMOTEDATABASE, --remotedatabase REMOTEDATABASE
                         db name (remote)
 
 Script work-line
